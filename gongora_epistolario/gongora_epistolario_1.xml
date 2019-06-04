@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:lang="es" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epistolario</title>
+        <author key="Góngora, Luis de (1561-1627)">Góngora</author>
+        <editor>Antonio Carreira</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Aude Plagnard</name>
+          <resp>Édition TEI et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name>María García María</name>
+          <resp>Édition word et stylage</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">http://creativecommons.org/licenses/by-nc-nd/3.0/fr/</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><!-- aqui va enlace a presentacion --></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date notAfter="1625" notBefore="1580"/>
+      </creation>
+      <correspDesk>
+       <correspAction type="sent">
+         <persName key="Góngora y Argote, Luis de" ref="https://viaf.org/viaf/12309145/" sameAs="#person_12309145">Luis de Góngora</persName>
+         <date when="30/09/1613">30 de septiembre de 1613</date>
+       </correspAction> 
+        <correspAction type="received">
+          <persName>Desconocido</persName>
+        </correspAction> 
+      </correspDesk>
+      <langUsage>
+        <language ident="es"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>EPISTOLARIO DE GÓNGORA</head>
+      <div>
+        <head>1. Respuesta de don Luis de Góngora<note place="bottom">A la Carta que le escribieron en razón de las <hi rend="i">Soledades</hi>, sin firma.</note></head>
+        <p>He tenido opinión que nadie hasta hoy me ha quedado a deber nada; y así, me es fuerza el responder sin saber a quién. Mas esta mi respuesta, como autos hechos en rebeldía, <persName type="polemist" key="Andrés de Mendoza">Andrés de Mendoza</persName>, a quien le toca parte, la notificará por estrados, en el patio de palacio, puerta de Guadalajara y corrales de comedias, lonjas de la bachillería donde le [de]parará a vuesa merced el perjuicio que hubiere lugar de derecho. Y si fue conclusión de la Filosofía que el atrevimiento era una acción inconsiderada expuesta al peligro, tengo a vuesa merced por tan audaz, aunque desfavorecido de la fortuna en esta parte, que tendrá ánimo de llegar a las ruedas donde se notificare a oír su bien o su mal. Y agradezca vuesa merced que, por venir su carta con capa de aviso y amistad, no corto la pluma en estilo satírico, que yo le escarmentara semejantes osadías, y creo que en él fuera tan claro como le he parecido escuro en el lírico.</p>
+        <p>Sin duda creyó vuesa merced haberse acabado el caudal de mis letras con esa <title>Soledad</title>, que suele ser la última partida de los que quiebran: pues crea que a letra vista se pagan en Parnaso, donde tengo razonable crédito. Y no sé en qué fuerzas fïado me escribe una carta, más que ingeniosa, atrevida, pues queriendo cumular mil fragmentos de disparates (como de diferentes dueños, de donde infiero los tiene el papel), no supo organizarlos, pues están más faltos de artículos y conjunciones copulativas que carta de vizcaíno; de donde se colige tener buen resto de ignorancia, pues tanta se traslada del corazón al papel, y hallo ser cierto que <quote><hi rend="i">nemo dat plus quam habet</hi></quote>. Y si uno de los defectos que su carta de vuesa merced pone en mis <title>Soledades</title> es que no articulo ni construyo bien el romance, siendo su mismo lenguaje, hemos de dar una de dos: o que él es bueno, o que vuesa merced habló acaso. Y aquí entra bien entendámonos a letras; y no he querido sea a coplas, que pienso que con ir esto tan lacónico y rodado no lo ha de entender vuesa merced.</p>
+        <p>Díceme vuesa merced por su misiva que renuncie este modo, por que no lo imiten los muchachos, entendiendo que hablo de veras. Caso que fuera error, me holgara de haber dado principio a algo; pues es mayor gloria empezar una acción que consumarla. Y si me pide conozca mi primero disparate, para que no me despeñe, reconozca vuesa merced el que ha hecho en darme consejo sin pedírselo, pues está condenado por la cordura, y no se precipitará dándolo segunda vez, que entonces me será fuerza haberme de valer de pluma más aguda y menos cuerda.</p>
+        <p>Para quedar una acción constituida en razón de bien, su carta de vuesa merced dice que ha de tener útil, honroso y delectable. Pregunto yo: ¿han sido útiles al mundo las poesías y aun las profecías (que <hi rend="i">vates</hi> se llama el poeta como el profeta)? Sería error negarlo; pues, dejando mil ejemplares aparte, la primera utilidad en ellas es la educación de cualesquiera estudiantes de estos tiempos; y si la obscuridad y estilo intricado de <persName type="authority" key="Ovidio">Ovidio</persName> (que en lo <hi rend="i">de</hi> <title>Ponto</title> y en lo <title>de Tristibus</title> fue tan claro como se sabe, y tan obscuro en las <title>Transformaciones</title>) da causa a que, vacilando el entendimiento en fuerza de discurso, trabajándole (pues crece con cualquier acto de calor), alcance lo que así en la letra superficial de sus versos no pudo entender luego, hase de confesar que tiene utilidad avivar el ingenio, y eso nació de la obscuridad del poeta. Eso mismo hallará vuesa merced en mis <title>Soledades</title>, si tiene capacidad para quitar la corteza y descubrir lo misterioso que encubren.</p>
+        <p>De honroso, en dos maneras considero me ha sido honrosa esta poesía: si entendida para los doctos, causarme ha autoridad, siendo lance forzoso venerar que nuestra lengua a costa de mi trabajo haya llegado a la perfección y alteza de la latina, a quien no he quitado los artículos, como parece a vuesa merced y esos señores, sino excusádolos donde no eran necesarios. Y así, gustar[í]a me dijese en dónde faltan, o qué razón dellas no está corriente en lenguaje heroico (que ha de ser diferente del de la prosa, y digno de personas capaces de entenderlo), que holgaré de construírselo, aunque niego no poder ligar el romance a esas declinaciones, y no doy aquí la razón cómo, porque espero convencer la pregunta que en esto vuesa merced me hiciere. Demás, que honra me ha causado hacerme obscuro a los ignorantes, que esa es la distinción de los hombres doctos, hablar de manera que a ellos les parezca griego, pues no se han de dar las perlas preciosas a animales de cerda. Y bien dice griego, locución exquisita que viene de <hi rend="i">poeses</hi>, verbo de aquella lengua madre de las ciencias, como <persName type="polemist" key="Andrés de Mendoza">Andrés de Mendoza</persName> en el segundo punto de sus corolarios (que así los llama vuesa merced) trató tan corta como agudamente.</p>
+        <p>De delectable tiene lo que en los dos puntos de arriba queda explicado; pues si deleitar el entendimiento es darle razones que lo concluyan y lo midan con su concepto, descubierto lo que está debajo de esos tropos, por fuerza el entendimiento ha de quedar convencido, y convencido, satisfecho. Demás que, como el fin del entendimiento es hazer presa en verdades, que por eso no le satisface nada si no es la primera verdad, conforme a aquella sentencia de <persName type="authority" key="san Augustín">san Augustín</persName>: <quote><hi rend="i">Inquietum est cor nostrum, donec requiescat in te</hi></quote>, en tanto quedará más deleitado en cuanto, obligándole a la especulación por la obscuridad de la obra, fuere hallando debajo de las sombras de la obscuridad asimilaciones a su concepto. Pienso que queda bastantemente respondido a lo que constituye una acción en razón de bien.</p>
+        <p>Al ramalazo de la desdicha de Babel, aunque el símil es humilde, quiero descubrir un secreto no entendido de vuesa merced al escrebirme: no los confundió Dios a ellos con darles lenguaje confuso, sino en el mismo suyo ellos se confundieron, tomando <hi rend="i">tierra</hi> por <hi rend="i">agua</hi> y <hi rend="i">agua</hi> por <hi rend="i">piedra</hi>, que esa fue la grandeza de la sabiduría del que confundió aquel soberbio intento. Yo no envío confusas las <title>Soledades</title>, sino la malicia de las voluntades en su mismo lenguaje halla confusión por parte del sujeto inficionado con ella.</p>
+        <p>A la gracia de Pentecostés querría obviar el responder, que no quiero a vuesa merced tan aficionado a las cosas del Testamento Viejo, y a mí me corren muchas obligaciones de saber poco dél por naturaleza y por oficio. Y así, solo digo que, si no pareciere a vuesa merced lo contrario, y a esos discípulos ocultos como Nicodemus, no van en más que una lengua las <title>Soledades</title>, aunque pudiera, quedándome el brazo sano, hacer una miscelánea de griego, latino y toscano con mi lengua natural, y creo no fuera condenable; que el mundo está satisfecho que los años de estudio que he gastado en varias lenguas han aprovechado algo a mi corto talento. Y porque la alabanza propria siempre fue aborrecida, corto el hilo en esta parte.</p>
+        <p>Préciome [de] muy amigo de los míos, y así quisiera responder a vuesa merced por <persName type="polemist" key="Andrés de Mendoza">Andrés de Mendoza</persName>; porque, demás de haber siempre confesádome por padre (que ese nombre tienen los maestros en las divinas y humanas letras), lo he conocido con agudo ingenio. Y porque creo dél se sabrá bien defender en cualesquiera conversaciones, teniéndolo de aquí adelante en mayor estima, solo digo a vuesa merced que ya mi edad más está para veras que para burlas. Procuraré ser amigo de quien lo quisiere ser mío; y quien no, Córdoba y tres mil ducados de renta en mi patinejo, mis fuentes, mi breviario, mi barbero y mi mula harán contrapeso a los émulos que tengo granjeados, más de entender yo sus obras y corregirlas que no de entender ellos las mías. <dateline><placeName>Córdoba</placeName> y <date>septiembre 30 de 1613</date></dateline>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
